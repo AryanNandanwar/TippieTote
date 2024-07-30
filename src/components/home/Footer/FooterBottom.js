@@ -1,6 +1,10 @@
 import React from "react";
 import { AiOutlineCopyright } from "react-icons/ai";
 
+var date = new Date()
+var year = date.getFullYear()
+
+
 const FooterBottom = () => {
   return (
     <div className="w-full bg-[#F5F5F3] group">
@@ -9,10 +13,10 @@ const FooterBottom = () => {
           <span className="text-md mr-[1px] mt-[2px] md:mt-0 text-center hidden md:inline-flex">
             <AiOutlineCopyright />
           </span>
-          Copyright 2022 | Orebi shopping | All Rights Reserved |
+          Copyright {year} | Tippie Tote | All Rights Reserved 
           <a href="https://reactbd.com/" target="_blank" rel="noreferrer">
             <span className="ml-1 font-medium group-hover:text-primeColor">
-              Powered by ReactBD.com
+              
             </span>
           </a>
         </p>

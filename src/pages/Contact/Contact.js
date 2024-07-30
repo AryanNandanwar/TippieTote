@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import {  useLocation } from "react-router-dom";
 import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
+
+
+
+
+
 
 const Contact = () => {
   const location = useLocation();
@@ -63,13 +68,18 @@ const Contact = () => {
     }
   };
 
+
+
+
+
+
   return (
     <div className="max-w-container mx-auto px-4">
       <Breadcrumbs title="Contact" prevLocation={prevLocation} />
       {successMsg ? (
         <p className="pb-20 w-96 font-medium text-green-500">{successMsg}</p>
       ) : (
-        <form className="pb-20">
+        <form className="pb-20" >
           <h1 className="font-titleFont font-semibold text-3xl">
             Fill up a Form
           </h1>
@@ -84,6 +94,7 @@ const Contact = () => {
                 className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-normal placeholder:text-sm outline-none focus-within:border-primeColor"
                 type="text"
                 placeholder="Enter your name here"
+                
               />
               {errClientName && (
                 <p className="text-red-500 text-sm font-titleFont font-semibold mt-1 px-2 flex items-center gap-1">
@@ -102,6 +113,7 @@ const Contact = () => {
                 className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-normal placeholder:text-sm outline-none focus-within:border-primeColor"
                 type="email"
                 placeholder="Enter your name here"
+                name="from_name"
               />
               {errEmail && (
                 <p className="text-red-500 text-sm font-titleFont font-semibold mt-1 px-2 flex items-center gap-1">
@@ -122,6 +134,7 @@ const Contact = () => {
                 className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-normal placeholder:text-sm outline-none focus-within:border-primeColor resize-none"
                 type="text"
                 placeholder="Enter your name here"
+                name="message"
               ></textarea>
               {errMessages && (
                 <p className="text-red-500 text-sm font-titleFont font-semibold mt-1 px-2 flex items-center gap-1">
@@ -133,6 +146,8 @@ const Contact = () => {
             <button
               onClick={handlePost}
               className="w-44 bg-primeColor text-gray-200 h-10 font-titleFont text-base tracking-wide font-semibold hover:bg-black hover:text-white duration-200"
+              type="submit"
+              
             >
               Post
             </button>
