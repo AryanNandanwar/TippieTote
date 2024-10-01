@@ -17,10 +17,9 @@ The Tippie Tote e-commerce website is designed to integrate seamlessly with the 
 **Security**: Implements SSL for secure transactions and data protection.<br>
 **Social Media Integration**: Users can share products on social platforms, linking directly to Instagram. <br>
 ## Tech Stack:
-Frontend: HTML5, CSS3, React <br>
-Backend: MongoDB , Node.js , Express.js<br>
-
-Payment Gateways: Stripe
+**Frontend**: HTML5, CSS3, React <br>
+**Backend**: MongoDB , Node.js , Express.js<br>
+**Payment Gateways**: Stripe , Paypal
 # Installation guide:
 
 # Getting Started with Create React App
