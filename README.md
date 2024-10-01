@@ -4,21 +4,21 @@
 The Tippie Tote e-commerce website is designed to integrate seamlessly with the business's Instagram presence, providing a secure and efficient platform for online shopping. Built with a robust tech stack, it focuses on delivering a smooth user experience across devices while ensuring mobile responsiveness, cross-browser compatibility, and SEO optimization for enhanced visibility.
 
 ## Key Features:
-User Registration and Authentication: Secure account creation and login with password recovery options.<br>
-Product Catalog: Displays tote bags with images, descriptions, and prices, with filters for easy searching.<br>
-Shopping Cart: Add, remove, and review items with a subtotal display and checkout functionality.<br>
-Checkout Process: Allows users to input shipping information and securely handle payment via Stripe, PayPal, and other gateways.<br>
-Order Management: Provides order confirmation, tracking, and history views for users.<br>
-User Profiles: Manage personal information, shipping addresses, payment methods, and favorite items.<br>
-Admin Panel: Product management, order processing, and sales report generation for admins. <br>
-Responsive Design: Ensures mobile-friendly access and consistent user experience across devices.<br>
-Reviews and Ratings: Users can leave reviews and ratings on products.<br>
-Notifications: Order confirmations, shipping notifications, and promotional messages.<br>
-Security: Implements SSL for secure transactions and data protection.<br>
-Social Media Integration: Users can share products on social platforms, linking directly to Instagram. <br>
+**User Registration and Authentication**: Secure account creation and login with password recovery options.<br>
+**Product Catalog**: Displays tote bags with images, descriptions, and prices, with filters for easy searching.<br>
+**Shopping Cart**: Add, remove, and review items with a subtotal display and checkout functionality.<br>
+**Checkout Process**: Allows users to input shipping information and securely handle payment via Stripe, PayPal, and other gateways.<br>
+**Order Management**: Provides order confirmation, tracking, and history views for users.<br>
+**User Profiles**: Manage personal information, shipping addresses, payment methods, and favorite items.<br>
+**Admin Panel**: Product management, order processing, and sales report generation for admins. <br>
+**Responsive Design**: Ensures mobile-friendly access and consistent user experience across devices.<br>
+**Reviews and Ratings**: Users can leave reviews and ratings on products.<br>
+**Notifications**: Order confirmations, shipping notifications, and promotional messages.<br>
+**Security**: Implements SSL for secure transactions and data protection.<br>
+**Social Media Integration**: Users can share products on social platforms, linking directly to Instagram. <br>
 ## Tech Stack:
-Frontend: HTML5, CSS3, React
-Backend: MongoDB , Node.js , Express.js
+Frontend: HTML5, CSS3, React <br>
+Backend: MongoDB , Node.js , Express.js<br>
 
 Payment Gateways: Stripe
 # Installation guide:
