@@ -1,8 +1,9 @@
-#Tippie Tote E-commerce Website
-#Project Overview
+# ROSPL LAB PART B
+# Tippie Tote E-commerce Website
+# Project Overview
 The Tippie Tote e-commerce website is designed to integrate seamlessly with the business's Instagram presence, providing a secure and efficient platform for online shopping. Built with a robust tech stack, it focuses on delivering a smooth user experience across devices while ensuring mobile responsiveness, cross-browser compatibility, and SEO optimization for enhanced visibility.
 
-#Key Features:
+## Key Features:
 User Registration and Authentication: Secure account creation and login with password recovery options.
 Product Catalog: Displays tote bags with images, descriptions, and prices, with filters for easy searching.
 Shopping Cart: Add, remove, and review items with a subtotal display and checkout functionality.
@@ -15,12 +16,12 @@ Reviews and Ratings: Users can leave reviews and ratings on products.
 Notifications: Order confirmations, shipping notifications, and promotional messages.
 Security: Implements SSL for secure transactions and data protection.
 Social Media Integration: Users can share products on social platforms, linking directly to Instagram.
-#Tech Stack:
+## Tech Stack:
 Frontend: HTML5, CSS3, React
 Backend: MongoDB , Node.js , Express.js
 
 Payment Gateways: Stripe
-#Installation guide:
+# Installation guide:
 
 # Getting Started with Create React App
 
